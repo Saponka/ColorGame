@@ -1,4 +1,4 @@
-let numeroCuadrados = 6
+let numeroCuadrados = 6;
 let colors =generateRandomColors(numeroCuadrados)
 let square = document.querySelectorAll(".square");
 let mensaje = document.querySelector("#message");
@@ -108,7 +108,7 @@ function ModeBotons(){
         botonMode[0].classList.remove("selected")
         botonMode[1].classList.remove("selected")
         this.classList.add("selected")
-        numeroCuadrados= (this.textContent==="Facil")?3:6
+        numeroCuadrados = (this.textContent ==="Facil")?3:6
 
         reset()
       })
